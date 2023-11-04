@@ -5,8 +5,4 @@
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="01_MultiplePointers/" />
-  </ItemGroup>
-
 </Project>

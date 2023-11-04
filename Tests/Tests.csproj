@@ -16,8 +16,4 @@
     <ProjectReference Include="..\ADS\ADS.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="01_MultiplePointers/" />
-  </ItemGroup>
-
 </Project>
