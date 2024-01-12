@@ -13,7 +13,7 @@ public static class PairSumZeroProblem
     public static int[]? SumZero(int[] setOfNumbers)
     {
         // NAIVE SOLUTION
-        // In a "brute-force" solution, we would have to use nested loops:
+        // We would have to use nested loops:
         // The first loop takes one value, and compares it to each element of the rest of the array in a second loop.
         // The time complexity of this solution would be O(n^2)
 
