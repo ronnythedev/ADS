@@ -35,16 +35,16 @@ public static class PairSumZeroProblem
         {
             int sum = setOfNumbers[left] + setOfNumbers[right];
 
-            if (sum == 0)
+            if (sum == 0) // 🙌
             {
                 return new int[] { setOfNumbers[left], setOfNumbers[right] };
             }
 
-            if (sum > 0)
+            if (sum > 0) // "right" is too big, move it one position to the "left"
             {
                 right--;
             }
-            else
+            else // "left" is too small, move it one position to the "right"
             {
                 left++;
             }
