@@ -13,7 +13,7 @@ public static class ArrayContainingSquaredValuesProblem
 
     public static bool SameSquared(int[] array1, int[] array2)
     {
-        // "BRUTE FORCE" SOLUTION
+        // NAIVE SOLUTION
         // We would have to use nested loops to compare each element in the first array with each element in the second array.
         // The time complexity of the "brute force" would be O(n^2).
 

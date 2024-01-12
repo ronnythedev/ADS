@@ -12,7 +12,7 @@ public static class AnagramProblem
 
     public static bool IsValidAnagram(string firstWord, string secondWord)
     {
-        // "BRUTE FORCE" SOLUTION
+        // NAIVE SOLUTION
         // It might be to use nested loops to compare each letter of the first word with each letter of the second word.
 
         // BETTER SOLUTION
