@@ -13,9 +13,16 @@ public static class ArrayContainingSquaredValuesProblem
 
     public static bool SameSquared(int[] array1, int[] array2)
     {
-        // In a "brute-force" solution, we would have to use nested loops to compare each element in the first array with each element in the second array.
-        // The time complexity of this solution would be O(n^2), which is not ideal.
-        // A better solution would be to use a frequency counter pattern.
+        // "BRUTE FORCE" SOLUTION
+        // We would have to use nested loops to compare each element in the first array with each element in the second array.
+        // The time complexity of the "brute force" would be O(n^2).
+
+        // BETTER SOLUTION
+        // We can use the Frequency Counter Pattern to solve this problem in O(n) time complexity.
+        // We can use two dictionaries to store the frequency of each value in the two arrays.
+        // 1. The first loop will store the frequency of each value of the first array in one dictionary.
+        // 2. The second loop will store the frequency of each value of the second array in another dictionary.
+        // 3. The third loop will compare the frequencies of each value in the two dictionaries and return accordingly.
 
         // If the length of the two arrays is different, we can return false immediately.
         if (array1.Length != array2.Length)

@@ -12,9 +12,14 @@ public static class AnagramProblem
 
     public static bool IsValidAnagram(string firstWord, string secondWord)
     {
-        // A "brute-force" solution might be to use nested loops to compare each letter of the first word with each letter of the second word.
+        // "BRUTE FORCE" SOLUTION
+        // It might be to use nested loops to compare each letter of the first word with each letter of the second word.
 
-        // A better approach is to store in two dictionaries the frequency of each letter using the letter as key of the dictionary.
+        // BETTER SOLUTION
+        // A better approach is to store the frequency in two dictionaries of each letter *using the letter as key* of the dictionary.
+        // 1. The first loop will store the frequency of each letter of the first word in one dictionary.
+        // 2. The second loop will store the frequency of each letter of the second word in another dictionary.
+        // 3. The third loop will compare the frequencies of each letter in the two dictionaries and return accordingly.
 
         if (firstWord.Length != secondWord.Length)
         {
