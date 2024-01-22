@@ -16,4 +16,8 @@
     <ProjectReference Include="..\ADS\ADS.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="03_FastSlowPointers/" />
+  </ItemGroup>
+
 </Project>
