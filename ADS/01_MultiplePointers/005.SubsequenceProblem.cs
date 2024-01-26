@@ -20,7 +20,8 @@ public static class SubsequenceProblem
         // Keep a counter that increases only when the character in the second string is found in the first string in [counter] position
         // Compare the lenght of the first string with the counter
 
-        if (firstString.Length == 0 || secondString.Length == 0)
+        if (firstString.Length == 0 || secondString.Length == 0
+            || (secondString.Length < firstString.Length))
         {
             return false;
         }
